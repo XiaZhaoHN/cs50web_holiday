@@ -1,0 +1,70 @@
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+h1,
+th {
+  text-align: center;
+}
+
+div .gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 300px;
+}
+
+div .gallery:hover {
+  border: 1px solid #777;
+}
+
+div desc {
+  padding: 15px;
+  font-size: 15px;
+  text-align: center;
+}
+
+div.gallery img, .myimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  image-orientation: from-image;
+}
+
+div.gallery img {
+  width: 100%;
+}
+
+.myimg {
+  width: 50%;
+}
+
+h2 {
+  font-size: 24px;
+  weight: 600;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.row > div {
+  padding: 20px;
+  background-color: #d7eaef;
+  border: 1px solid;
+}
+
+.hightlights {
+  font-weight: bold;
+}
+
+#info-button {
+  background-color: #e6e8ed;
+  margin-left: 30px;
+  border: 0;
+}
+
+.container {
+  padding-bottom: 40px;
+}
